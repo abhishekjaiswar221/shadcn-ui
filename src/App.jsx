@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import viteLogo from "../public/vite.svg";
 import "./App.css";
 import { Button } from "./components/ui/button";
 
@@ -22,6 +22,7 @@ function App() {
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button> */}
+        {/* ShadCN UI Button example */}
         <Button onClick={() => setCount((count) => count + 1)}>
           Count is {count}
         </Button>
